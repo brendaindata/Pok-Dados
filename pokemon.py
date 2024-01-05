@@ -1,11 +1,18 @@
 import requests
+import json
 
 url = "https://pokeapi.co/api/v2/pokemon/"
 
-payload = {}
-headers = {}
+while url != None:
+    payload = {}
+    headers = {}
 
-response = requests.request("GET", url, headers=headers, data=payload)
+    response = json.loads(requests.request("GET", url, headers=headers, data=payload).text)
+    url = response ["next"]
 
-print(response.text)
+    for item in response["results"]:
+       pokemon_name = item["name"]
+       url_pokemon = f "https://pokeapi.co/api/v2/pokemon/{pokemon_name}"
+       response_pokemon = json.loads(requests.request("GET", url_pokemon, headers=headers, data=payload).text)
 
+       
