@@ -22,3 +22,10 @@ while url != None:
 
 print(pokemon_list)
 
+file_path = r"C:\Users\eolen\OneDrive\Área de Trabalho\PokeDados\pokemon_files\pokemon_list.json"
+
+with open(file_path, "w") as outfile: 
+    print(f"Salvando arquivo em: {file_path}")
+    json.dump(pokemon_list, outfile)
+
+outfile.close()
