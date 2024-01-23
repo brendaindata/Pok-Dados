@@ -1,0 +1,49 @@
+[2024-01-06T15:44:20.771-0300] {processor.py:161} INFO - Started process (PID=714) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:44:20.772-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:44:20.772-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:20.772-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:44:20.776-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:44:20.900-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:20.900-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:20.905-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:20.905-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:44:20.924-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.154 seconds
+[2024-01-06T15:45:09.986-0300] {processor.py:161} INFO - Started process (PID=762) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:09.987-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:45:09.988-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:09.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:09.991-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:09.999-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:09.999-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:10.005-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:10.005-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:45:10.027-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.042 seconds
+[2024-01-06T15:45:54.233-0300] {processor.py:161} INFO - Started process (PID=891) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:54.234-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:45:54.235-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:54.235-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:54.238-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:45:54.246-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:54.246-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:54.252-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:54.252-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:45:54.267-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2024-01-06T15:46:27.778-0300] {processor.py:161} INFO - Started process (PID=930) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:46:27.779-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:46:27.780-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:27.780-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:46:27.783-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:46:27.791-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:27.791-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:27.797-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:27.797-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:46:27.811-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.034 seconds
+[2024-01-06T15:47:18.069-0300] {processor.py:161} INFO - Started process (PID=989) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:18.070-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:47:18.071-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:18.071-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:18.074-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:18.082-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:18.082-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:18.087-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:18.087-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:47:18.103-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2024-01-06T15:47:52.616-0300] {processor.py:161} INFO - Started process (PID=1031) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:52.619-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:47:52.620-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:52.620-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:52.623-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:47:52.631-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:52.631-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:52.636-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:52.636-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:47:52.655-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.040 seconds
+[2024-01-06T15:48:30.043-0300] {processor.py:161} INFO - Started process (PID=1067) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:48:30.043-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-01-06T15:48:30.044-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:30.044-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:48:30.047-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-01-06T15:48:30.055-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:30.055-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:30.061-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:30.061-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-01-06T15:48:30.077-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds

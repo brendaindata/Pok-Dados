@@ -1,0 +1,1275 @@
+[2024-01-06T15:44:13.186-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-06T15:44:13.186-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-06T15:44:13.186-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-06T15:44:13.186-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-06T15:44:13.194-0300] {manager.py:741} INFO - There are 48 files in /home/brendaschap/airflow/dags
+[2024-01-06T15:44:13.630-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.40s           2024-01-06T18:44:13
+================================================================================
+[2024-01-06T15:44:43.964-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:44:17
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:44:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.40s           2024-01-06T18:44:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.20s           2024-01-06T18:44:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.30s           2024-01-06T18:44:18
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.20s           2024-01-06T18:44:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.20s           2024-01-06T18:44:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.20s           2024-01-06T18:44:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.20s           2024-01-06T18:44:23
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.20s           2024-01-06T18:44:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.40s           2024-01-06T18:44:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.20s           2024-01-06T18:44:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.20s           2024-01-06T18:44:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.20s           2024-01-06T18:44:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.20s           2024-01-06T18:44:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2024-01-06T18:44:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.20s           2024-01-06T18:44:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.20s           2024-01-06T18:44:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.20s           2024-01-06T18:44:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.20s           2024-01-06T18:44:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.20s           2024-01-06T18:44:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.20s           2024-01-06T18:44:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.20s           2024-01-06T18:44:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.20s           2024-01-06T18:44:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.20s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.20s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.30s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.20s           2024-01-06T18:44:16
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.20s           2024-01-06T18:44:23
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.20s           2024-01-06T18:44:39
+================================================================================
+[2024-01-06T15:45:14.119-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:45:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:44:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:44:59
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:45:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:45:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:45:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:45:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:45:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:45:07
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:45:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:45:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:45:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:45:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:45:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:45:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.20s           2024-01-06T18:44:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.20s           2024-01-06T18:44:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.20s           2024-01-06T18:44:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.20s           2024-01-06T18:44:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2024-01-06T18:44:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.20s           2024-01-06T18:44:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.20s           2024-01-06T18:44:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.20s           2024-01-06T18:44:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.20s           2024-01-06T18:44:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.20s           2024-01-06T18:44:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.20s           2024-01-06T18:44:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.20s           2024-01-06T18:44:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.20s           2024-01-06T18:44:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.20s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.20s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.30s           2024-01-06T18:44:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.20s           2024-01-06T18:44:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.20s           2024-01-06T18:44:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:44:48
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:44:49
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:44:51
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.20s           2024-01-06T18:44:52
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:44:53
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.20s           2024-01-06T18:44:54
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:44:55
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:44:56
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.20s           2024-01-06T18:44:57
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:44:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:45:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:45:11
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.20s           2024-01-06T18:44:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.20s           2024-01-06T18:44:47
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.20s           2024-01-06T18:44:49
+================================================================================
+[2024-01-06T15:45:44.384-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:45:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:45:23
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:44:59
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:45:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:45:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:45:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:45:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:45:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:45:07
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:45:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:45:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:45:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:45:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:45:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:45:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:45:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:45:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:45:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:45:16
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:45:18
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:45:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:45:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:45:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:45:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:45:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:45:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:45:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:45:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:45:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:45:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:45:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:45:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:45:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:45:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:45:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:45:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:45:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:45:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:45:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:45:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:45:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.20s           2024-01-06T18:44:57
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:44:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:45:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:45:11
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:45:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:45:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:45:35
+================================================================================
+[2024-01-06T15:46:14.565-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:45:51
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:46:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:45:46
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:45:47
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:45:49
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:45:50
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:46:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:46:09
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:45:52
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:45:53
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:45:54
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:45:54
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:45:57
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:45:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:45:59
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:46:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:46:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:46:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:46:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:46:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:46:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:46:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:46:07
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:46:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:46:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:46:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:46:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:45:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:45:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:45:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:45:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:45:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:45:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:45:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:45:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:45:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:45:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:45:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:45:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:45:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:45:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2024-01-06T18:45:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:45:46
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:45:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:45:56
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:46:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:45:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:45:35
+================================================================================
+[2024-01-06T15:46:45.062-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:46:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:46:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:46:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:46:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:46:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:46:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:46:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:46:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:46:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:46:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:46:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:46:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:46:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:45:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:45:59
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:46:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:46:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:46:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:46:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:46:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:46:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:46:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:46:07
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:46:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:46:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:46:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:46:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:46:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:46:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:46:16
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:46:17
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:46:18
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:46:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:46:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:46:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:46:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:46:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:46:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:46:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:46:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:46:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2024-01-06T18:46:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:46:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:46:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:46:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:46:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:46:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:46:23
+================================================================================
+[2024-01-06T15:47:15.402-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:46:57
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:47:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:46:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:46:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:46:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:46:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:47:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:46:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:46:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:46:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:46:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:46:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:46:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:46:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:46:46
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:46:47
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:46:48
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:46:49
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:46:50
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:46:51
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:46:53
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:46:53
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:46:54
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:46:55
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:47:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:47:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:47:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:47:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:47:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:47:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:47:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:47:09
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:47:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:47:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:47:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:46:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:46:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:46:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:46:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:46:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:46:34
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2024-01-06T18:46:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:46:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:46:56
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:46:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:47:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:47:11
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:47:14
+================================================================================
+[2024-01-06T15:47:45.665-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:47:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:47:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:47:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:47:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:47:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:47:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:47:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:47:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:47:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:47:17
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:47:18
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:47:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:47:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:47:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:47:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:47:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:47:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:47:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:47:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:47:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:47:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:47:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:47:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:47:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:47:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:47:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:47:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:47:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:47:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:47:06
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:47:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:47:09
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:47:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:47:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:47:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:47:21
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:47:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:47:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:47:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:47:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:47:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2024-01-06T18:47:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:47:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:47:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:47:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:47:02
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:47:11
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:47:14
+================================================================================
+[2024-01-06T15:48:15.853-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-06T18:48:08
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-06T18:47:46
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2024-01-06T18:47:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2024-01-06T18:47:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2024-01-06T18:47:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.10s           2024-01-06T18:47:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.30s           2024-01-06T18:47:49
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.10s           2024-01-06T18:47:50
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-06T18:48:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.10s           2024-01-06T18:47:51
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.10s           2024-01-06T18:47:52
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.10s           2024-01-06T18:47:53
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.10s           2024-01-06T18:48:11
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.10s           2024-01-06T18:48:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.30s           2024-01-06T18:48:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.10s           2024-01-06T18:47:38
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.10s           2024-01-06T18:47:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.10s           2024-01-06T18:47:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.10s           2024-01-06T18:47:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.10s           2024-01-06T18:47:42
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.10s           2024-01-06T18:47:43
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.10s           2024-01-06T18:47:44
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.10s           2024-01-06T18:47:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.10s           2024-01-06T18:47:45
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.10s           2024-01-06T18:47:47
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.10s           2024-01-06T18:47:55
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.10s           2024-01-06T18:47:56
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.10s           2024-01-06T18:47:57
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.10s           2024-01-06T18:47:58
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.10s           2024-01-06T18:47:59
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.20s           2024-01-06T18:48:00
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.10s           2024-01-06T18:48:01
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.10s           2024-01-06T18:48:03
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.10s           2024-01-06T18:48:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.10s           2024-01-06T18:48:05
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.10s           2024-01-06T18:48:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.10s           2024-01-06T18:48:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.10s           2024-01-06T18:47:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.10s           2024-01-06T18:47:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.20s           2024-01-06T18:47:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.10s           2024-01-06T18:47:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.10s           2024-01-06T18:47:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.20s           2024-01-06T18:47:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-06T18:48:07
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.10s           2024-01-06T18:47:54
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.10s           2024-01-06T18:47:48
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2024-01-06T18:48:04
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2024-01-06T18:48:06
+================================================================================
+[2024-01-09T10:09:10.608-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T10:09:10.608-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T10:09:10.608-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T10:09:10.609-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:09:10.622-0300] {manager.py:741} INFO - There are 49 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:09:10.853-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/brendaschap/airflow/dags/pokemon_extraction.py                                                                                                            1           0  0.20s           2024-01-09T13:09:10
+================================================================================
+[2024-01-09T10:09:41.061-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2024-01-09T13:09:15
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2024-01-09T13:09:35
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/home/brendaschap/airflow/dags/pokemon_extraction.py                                                                                                            1           0  0.20s           2024-01-09T13:09:10
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.40s           2024-01-09T13:09:12
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.20s           2024-01-09T13:09:13
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.20s           2024-01-09T13:09:16
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.20s           2024-01-09T13:09:18
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.20s           2024-01-09T13:09:19
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.20s           2024-01-09T13:09:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.20s           2024-01-09T13:09:22
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.20s           2024-01-09T13:09:23
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.40s           2024-01-09T13:09:24
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.20s           2024-01-09T13:09:25
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.20s           2024-01-09T13:09:26
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.20s           2024-01-09T13:09:27
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.20s           2024-01-09T13:09:28
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.20s           2024-01-09T13:09:29
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.20s           2024-01-09T13:09:30
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.20s           2024-01-09T13:09:31
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.20s           2024-01-09T13:09:32
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.20s           2024-01-09T13:09:33
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.20s           2024-01-09T13:09:36
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.20s           2024-01-09T13:09:37
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.20s           2024-01-09T13:09:39
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.20s           2024-01-09T13:09:40
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.20s           2024-01-09T13:09:41
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.10s           2024-01-09T13:09:14
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.20s           2024-01-09T13:09:20
+/home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.20s           2024-01-09T13:09:36
+================================================================================
+[2024-01-09T10:10:03.552-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T10:11:54.318-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T10:11:54.319-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T10:11:54.319-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T10:11:54.319-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:11:54.320-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:11:54.468-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:11:54
+================================================================================
+[2024-01-09T10:12:24.692-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:12:24
+================================================================================
+[2024-01-09T10:12:55.054-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:12:55
+================================================================================
+[2024-01-09T10:13:25.415-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:13:25
+================================================================================
+[2024-01-09T10:13:55.785-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:13:55
+================================================================================
+[2024-01-09T10:14:26.009-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:14:26
+================================================================================
+[2024-01-09T10:14:56.377-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.20s           2024-01-09T13:14:56
+================================================================================
+[2024-01-09T10:15:26.646-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:15:26
+================================================================================
+[2024-01-09T10:15:56.930-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:15:56
+================================================================================
+[2024-01-09T10:16:27.255-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:16:27
+================================================================================
+[2024-01-09T10:16:54.330-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:16:54.331-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:16:57.620-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:16:57
+================================================================================
+[2024-01-09T10:17:27.968-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:17:27
+================================================================================
+[2024-01-09T10:17:58.326-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:17:58
+================================================================================
+[2024-01-09T10:18:28.607-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:18:28
+================================================================================
+[2024-01-09T10:18:58.986-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:18:58
+================================================================================
+[2024-01-09T10:19:29.373-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:19:29
+================================================================================
+[2024-01-09T10:19:59.744-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:19:59
+================================================================================
+[2024-01-09T10:20:29.957-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:20:29
+================================================================================
+[2024-01-09T10:21:00.318-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:21:00
+================================================================================
+[2024-01-09T10:21:30.682-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:21:30
+================================================================================
+[2024-01-09T10:21:54.366-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:21:54.367-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:22:01.052-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:22:01
+================================================================================
+[2024-01-09T10:22:31.418-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:22:31
+================================================================================
+[2024-01-09T10:23:01.768-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:23:01
+================================================================================
+[2024-01-09T10:23:32.127-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:23:32
+================================================================================
+[2024-01-09T10:24:02.497-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:24:02
+================================================================================
+[2024-01-09T10:24:32.840-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:24:32
+================================================================================
+[2024-01-09T10:25:03.171-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:25:03
+================================================================================
+[2024-01-09T10:25:33.507-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:25:33
+================================================================================
+[2024-01-09T10:26:03.834-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:26:03
+================================================================================
+[2024-01-09T10:26:33.978-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:26:33
+================================================================================
+[2024-01-09T10:26:54.403-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:26:54.404-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:27:04.391-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:27:04
+================================================================================
+[2024-01-09T10:27:34.509-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:27:34
+================================================================================
+[2024-01-09T10:28:04.622-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:28:04
+================================================================================
+[2024-01-09T10:28:34.747-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:28:34
+================================================================================
+[2024-01-09T10:29:05.029-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:29:05
+================================================================================
+[2024-01-09T10:29:35.914-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:29:35
+================================================================================
+[2024-01-09T10:30:06.107-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:30:06
+================================================================================
+[2024-01-09T10:30:36.576-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:30:36
+================================================================================
+[2024-01-09T10:31:06.897-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:31:06
+================================================================================
+[2024-01-09T10:31:37.152-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:31:37
+================================================================================
+[2024-01-09T10:31:55.027-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:31:55.028-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:32:07.293-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:32:07
+================================================================================
+[2024-01-09T10:32:37.715-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:32:37
+================================================================================
+[2024-01-09T10:33:08.969-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:33:08
+================================================================================
+[2024-01-09T10:33:39.510-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:33:39
+================================================================================
+[2024-01-09T10:34:09.925-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:34:09
+================================================================================
+[2024-01-09T10:34:40.682-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:34:40
+================================================================================
+[2024-01-09T10:35:11.797-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:35:11
+================================================================================
+[2024-01-09T10:35:42.892-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:35:42
+================================================================================
+[2024-01-09T10:36:13.105-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:36:13
+================================================================================
+[2024-01-09T10:36:43.719-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:36:43
+================================================================================
+[2024-01-09T10:36:55.042-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:36:55.043-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:37:13.973-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:37:13
+================================================================================
+[2024-01-09T10:37:44.993-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:37:44
+================================================================================
+[2024-01-09T10:38:16.055-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:38:16
+================================================================================
+[2024-01-09T10:38:47.501-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:38:47
+================================================================================
+[2024-01-09T10:39:17.791-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:39:17
+================================================================================
+[2024-01-09T10:39:48.817-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:39:48
+================================================================================
+[2024-01-09T10:40:19.595-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:40:19
+================================================================================
+[2024-01-09T10:40:50.110-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:40:50
+================================================================================
+[2024-01-09T10:41:20.512-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:41:20
+================================================================================
+[2024-01-09T10:41:50.714-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:41:50
+================================================================================
+[2024-01-09T10:41:56.307-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:41:56.308-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:42:25.051-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T10:46:45.575-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T10:46:45.575-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T10:46:45.575-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T10:46:45.575-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T10:46:45.576-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T10:46:45.705-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T13:46:45
+================================================================================
+[2024-01-09T11:00:01.082-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T11:00:01.082-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T11:00:01.083-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T11:00:01.083-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T11:00:01.084-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T11:00:01.238-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:00:01
+================================================================================
+[2024-01-09T11:11:36.666-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T11:11:36.776-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T11:11:36.776-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T11:11:36.776-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T11:11:36.776-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T11:11:36.777-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T11:11:36.907-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:11:36
+================================================================================
+[2024-01-09T11:15:51.295-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T11:15:51.363-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T11:15:51.363-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T11:15:51.363-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T11:15:51.363-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T11:15:51.364-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T11:15:51.487-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:15:51
+================================================================================
+[2024-01-09T11:16:21.723-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:16:21
+================================================================================
+[2024-01-09T11:18:30.720-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T11:18:30.788-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T11:18:30.788-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T11:18:30.788-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T11:18:30.788-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T11:18:30.789-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T11:18:30.912-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:18:30
+================================================================================
+[2024-01-09T11:22:18.266-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T11:22:18.335-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T11:22:18.335-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T11:22:18.335-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T11:22:18.335-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T11:22:18.336-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T11:22:18.461-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T14:22:18
+================================================================================
+[2024-01-09T14:29:33.891-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T14:29:33.892-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T14:29:33.892-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T14:29:33.892-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T14:29:33.894-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T14:29:34.064-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T17:29:34
+================================================================================
+[2024-01-09T14:33:35.603-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T14:33:35.716-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T14:33:35.716-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T14:33:35.716-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T14:33:35.716-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T14:33:35.717-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T14:33:35.847-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T17:33:35
+================================================================================
+[2024-01-09T14:37:26.150-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T14:37:26.263-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T14:37:26.263-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T14:37:26.263-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T14:37:26.263-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T14:37:26.264-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T14:37:26.389-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T17:37:26
+================================================================================
+[2024-01-09T14:41:13.096-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T14:41:13.208-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T14:41:13.208-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T14:41:13.208-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T14:41:13.208-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T14:41:13.209-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T14:41:13.338-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T17:41:13
+================================================================================
+[2024-01-09T14:44:56.661-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-01-09T14:44:56.774-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-01-09T14:44:56.774-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-01-09T14:44:56.774-0300] {manager.py:471} INFO - Checking for new files in /home/brendaschap/airflow/dags every 300 seconds
+[2024-01-09T14:44:56.774-0300] {manager.py:738} INFO - Searching for files in /home/brendaschap/airflow/dags
+[2024-01-09T14:44:56.775-0300] {manager.py:741} INFO - There are 1 files in /home/brendaschap/airflow/dags
+[2024-01-09T14:44:56.901-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/brendaschap/airflow/dags/pokemon_extraction.py                           1           0  0.10s           2024-01-09T17:44:56
+================================================================================

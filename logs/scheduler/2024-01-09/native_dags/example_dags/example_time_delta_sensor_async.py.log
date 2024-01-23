@@ -1,0 +1,7 @@
+[2024-01-09T10:09:45.426-0300] {processor.py:161} INFO - Started process (PID=3032) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-01-09T10:09:45.426-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-01-09T10:09:45.427-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:45.426-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-01-09T10:09:45.429-0300] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-01-09T10:09:45.437-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:45.437-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:09:45.522-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:45.521-0300] {dag.py:3820} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-01-09T10:09:45.540-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.116 seconds

@@ -1,0 +1,88 @@
+[2024-01-09T10:42:15.266-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-12-10T10:00:00+00:00 [queued]>
+[2024-01-09T10:42:15.270-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-12-10T10:00:00+00:00 [queued]>
+[2024-01-09T10:42:15.270-0300] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-09T10:42:15.281-0300] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): extract_pokemons> on 2023-12-10 10:00:00+00:00
+[2024-01-09T10:42:15.283-0300] {standard_task_runner.py:60} INFO - Started process 4046 to run task
+[2024-01-09T10:42:15.284-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pokemon_extraction', 'extract_pokemons', 'scheduled__2023-12-10T10:00:00+00:00', '--job-id', '279', '--raw', '--subdir', 'DAGS_FOLDER/pokemon_extraction.py', '--cfg-path', '/tmp/tmp349wpvzk']
+[2024-01-09T10:42:15.285-0300] {standard_task_runner.py:88} INFO - Job 279: Subtask extract_pokemons
+[2024-01-09T10:42:15.306-0300] {task_command.py:423} INFO - Running <TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-12-10T10:00:00+00:00 [running]> on host LAPTOP-SB6KEOGH.
+[2024-01-09T10:42:15.354-0300] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Brenda Schapievski' AIRFLOW_CTX_DAG_ID='pokemon_extraction' AIRFLOW_CTX_TASK_ID='extract_pokemons' AIRFLOW_CTX_EXECUTION_DATE='2023-12-10T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-10T10:00:00+00:00'
+[2024-01-09T10:42:15.672-0300] {logging_mixin.py:188} INFO - 1
+[2024-01-09T10:42:15.873-0300] {logging_mixin.py:188} INFO - 2
+[2024-01-09T10:42:16.025-0300] {logging_mixin.py:188} INFO - 3
+[2024-01-09T10:42:16.198-0300] {logging_mixin.py:188} INFO - 4
+[2024-01-09T10:42:16.356-0300] {logging_mixin.py:188} INFO - 5
+[2024-01-09T10:42:16.519-0300] {logging_mixin.py:188} INFO - 6
+[2024-01-09T10:42:16.674-0300] {logging_mixin.py:188} INFO - 7
+[2024-01-09T10:42:16.843-0300] {logging_mixin.py:188} INFO - 8
+[2024-01-09T10:42:17.004-0300] {logging_mixin.py:188} INFO - 9
+[2024-01-09T10:42:17.156-0300] {logging_mixin.py:188} INFO - 10
+[2024-01-09T10:42:17.305-0300] {logging_mixin.py:188} INFO - 11
+[2024-01-09T10:42:17.480-0300] {logging_mixin.py:188} INFO - 12
+[2024-01-09T10:42:17.657-0300] {logging_mixin.py:188} INFO - 13
+[2024-01-09T10:42:17.804-0300] {logging_mixin.py:188} INFO - 14
+[2024-01-09T10:42:17.965-0300] {logging_mixin.py:188} INFO - 15
+[2024-01-09T10:42:18.204-0300] {logging_mixin.py:188} INFO - 16
+[2024-01-09T10:42:18.355-0300] {logging_mixin.py:188} INFO - 17
+[2024-01-09T10:42:18.522-0300] {logging_mixin.py:188} INFO - 18
+[2024-01-09T10:42:18.669-0300] {logging_mixin.py:188} INFO - 19
+[2024-01-09T10:42:18.821-0300] {logging_mixin.py:188} INFO - 20
+[2024-01-09T10:42:19.123-0300] {logging_mixin.py:188} INFO - 21
+[2024-01-09T10:42:19.274-0300] {logging_mixin.py:188} INFO - 22
+[2024-01-09T10:42:19.495-0300] {logging_mixin.py:188} INFO - 23
+[2024-01-09T10:42:19.648-0300] {logging_mixin.py:188} INFO - 24
+[2024-01-09T10:42:19.809-0300] {logging_mixin.py:188} INFO - 25
+[2024-01-09T10:42:19.974-0300] {logging_mixin.py:188} INFO - 26
+[2024-01-09T10:42:20.132-0300] {logging_mixin.py:188} INFO - 27
+[2024-01-09T10:42:20.291-0300] {logging_mixin.py:188} INFO - 28
+[2024-01-09T10:42:20.457-0300] {logging_mixin.py:188} INFO - 29
+[2024-01-09T10:42:20.628-0300] {logging_mixin.py:188} INFO - 30
+[2024-01-09T10:42:20.790-0300] {logging_mixin.py:188} INFO - 31
+[2024-01-09T10:42:20.941-0300] {logging_mixin.py:188} INFO - 32
+[2024-01-09T10:42:22.120-0300] {logging_mixin.py:188} INFO - 33
+[2024-01-09T10:42:22.277-0300] {logging_mixin.py:188} INFO - 34
+[2024-01-09T10:42:22.435-0300] {logging_mixin.py:188} INFO - 35
+[2024-01-09T10:42:22.605-0300] {logging_mixin.py:188} INFO - 36
+[2024-01-09T10:42:22.756-0300] {logging_mixin.py:188} INFO - 37
+[2024-01-09T10:42:22.907-0300] {logging_mixin.py:188} INFO - 38
+[2024-01-09T10:42:23.095-0300] {logging_mixin.py:188} INFO - 39
+[2024-01-09T10:42:23.251-0300] {logging_mixin.py:188} INFO - 40
+[2024-01-09T10:42:23.554-0300] {logging_mixin.py:188} INFO - 41
+[2024-01-09T10:42:23.712-0300] {logging_mixin.py:188} INFO - 42
+[2024-01-09T10:42:23.892-0300] {logging_mixin.py:188} INFO - 43
+[2024-01-09T10:42:24.048-0300] {logging_mixin.py:188} INFO - 44
+[2024-01-09T10:42:24.048-0300] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 4046. PIDs of all processes in the group: [4046]
+[2024-01-09T10:42:24.049-0300] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 4046
+[2024-01-09T10:42:24.049-0300] {taskinstance.py:2451} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-01-09T10:42:24.053-0300] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/brendaschap/airflow/dags/pokemon.py", line 20, in extract_pokemon
+    response_pokemon = json.loads(requests.request("GET", url_pokemon, headers=headers, data=payload).text)
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/requests/sessions.py", line 579, in request
+    settings = self.merge_environment_settings(
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/requests/sessions.py", line 761, in merge_environment_settings
+    env_proxies = get_environ_proxies(url, no_proxy=no_proxy)
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/requests/utils.py", line 830, in get_environ_proxies
+    if should_bypass_proxies(url, no_proxy=no_proxy):
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/requests/utils.py", line 814, in should_bypass_proxies
+    bypass = proxy_bypass(parsed.hostname)
+  File "/usr/lib/python3.10/urllib/request.py", line 2532, in proxy_bypass_environment
+    proxies = getproxies_environment()
+  File "/usr/lib/python3.10/urllib/request.py", line 2501, in getproxies_environment
+    for name in os.environ.keys():
+  File "/usr/lib/python3.10/_collections_abc.py", line 836, in keys
+    def keys(self):
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2453, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-01-09T10:42:24.062-0300] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pokemon_extraction, task_id=extract_pokemons, execution_date=20231210T100000, start_date=20240109T134215, end_date=20240109T134224
+[2024-01-09T10:42:24.074-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 279 for task extract_pokemons (Task received SIGTERM signal; 4046)
+[2024-01-09T10:42:24.101-0300] {process_utils.py:79} INFO - Process psutil.Process(pid=4046, status='terminated', exitcode=1, started='10:42:15') (4046) terminated with exit code 1

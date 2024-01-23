@@ -1,0 +1,7 @@
+[2024-01-09T10:09:32.489-0300] {processor.py:161} INFO - Started process (PID=3020) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-01-09T10:09:32.490-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-01-09T10:09:32.490-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:32.490-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-01-09T10:09:32.495-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-01-09T10:09:32.503-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:32.503-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:09:32.590-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:32.590-0300] {dag.py:3820} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-01-09T10:09:32.603-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.116 seconds

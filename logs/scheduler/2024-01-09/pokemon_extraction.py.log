@@ -1,0 +1,493 @@
+[2024-01-09T10:09:10.652-0300] {processor.py:161} INFO - Started process (PID=3000) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:09:10.652-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:09:10.653-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.653-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:09:10.660-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:09:10.791-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.791-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:pokemon_extraction
+[2024-01-09T10:09:10.799-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.799-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:pokemon_extraction
+[2024-01-09T10:09:10.806-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.806-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:pokemon_extraction
+[2024-01-09T10:09:10.806-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.806-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:09:10.811-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.811-0300] {dag.py:3055} INFO - Creating ORM DAG for pokemon_extraction
+[2024-01-09T10:09:10.816-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:09:10.815-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:09:10.828-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.178 seconds
+[2024-01-09T10:10:02.461-0300] {processor.py:161} INFO - Started process (PID=3049) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:10:02.462-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:10:02.462-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:10:02.462-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:10:02.467-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:10:02.474-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:10:02.474-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:10:02.484-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:10:02.484-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:10:02.499-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.039 seconds
+[2024-01-09T10:11:54.369-0300] {processor.py:161} INFO - Started process (PID=3085) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:11:54.369-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:11:54.370-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:11:54.370-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:11:54.376-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:11:54.387-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:11:54.386-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:11:54.397-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:11:54.397-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:11:54.414-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.047 seconds
+[2024-01-09T10:12:24.493-0300] {processor.py:161} INFO - Started process (PID=3088) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:24.494-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:12:24.494-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:24.494-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:24.501-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:24.512-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:24.512-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:12:24.523-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:24.523-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:12:24.621-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.129 seconds
+[2024-01-09T10:12:54.856-0300] {processor.py:161} INFO - Started process (PID=3093) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:54.857-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:12:54.858-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:54.858-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:54.866-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:12:54.877-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:54.877-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:12:54.966-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:12:54.965-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:12:54.980-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.126 seconds
+[2024-01-09T10:13:25.216-0300] {processor.py:161} INFO - Started process (PID=3094) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:25.217-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:13:25.217-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:25.217-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:25.224-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:25.233-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:25.233-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:13:25.320-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:25.320-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:13:25.337-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.123 seconds
+[2024-01-09T10:13:55.585-0300] {processor.py:161} INFO - Started process (PID=3095) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:55.587-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:13:55.588-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:55.588-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:55.595-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:13:55.680-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:55.680-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:13:55.689-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:13:55.689-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:13:55.704-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.121 seconds
+[2024-01-09T10:14:25.810-0300] {processor.py:161} INFO - Started process (PID=3096) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:25.814-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:14:25.814-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:25.814-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:25.821-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:25.901-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:25.901-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:14:25.910-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:25.910-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:14:25.927-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.118 seconds
+[2024-01-09T10:14:56.178-0300] {processor.py:161} INFO - Started process (PID=3100) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:56.183-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:14:56.183-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:56.183-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:56.262-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:14:56.270-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:56.270-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:14:56.279-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:14:56.279-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:14:56.298-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.122 seconds
+[2024-01-09T10:15:26.547-0300] {processor.py:161} INFO - Started process (PID=3101) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:26.552-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:15:26.552-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:26.552-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:26.559-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:26.569-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:26.569-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:15:26.579-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:26.579-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:15:26.597-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T10:15:56.831-0300] {processor.py:161} INFO - Started process (PID=3102) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:56.832-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:15:56.833-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:56.832-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:56.840-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:15:56.850-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:56.850-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:15:56.861-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:15:56.861-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:15:56.876-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:16:27.157-0300] {processor.py:161} INFO - Started process (PID=3103) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:27.161-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:16:27.161-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:27.161-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:27.168-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:27.178-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:27.178-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:16:27.188-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:27.188-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:16:27.203-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:16:57.521-0300] {processor.py:161} INFO - Started process (PID=3104) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:57.521-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:16:57.525-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:57.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:57.532-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:16:57.542-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:57.542-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:16:57.552-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:16:57.552-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:16:57.571-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T10:17:27.870-0300] {processor.py:161} INFO - Started process (PID=3108) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:27.871-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:17:27.871-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:27.871-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:27.879-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:27.889-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:27.889-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:17:27.900-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:27.900-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:17:27.917-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:17:58.227-0300] {processor.py:161} INFO - Started process (PID=3109) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:58.231-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:17:58.232-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:58.231-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:58.239-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:17:58.249-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:58.249-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:17:58.259-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:17:58.259-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:17:58.274-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:18:28.509-0300] {processor.py:161} INFO - Started process (PID=3110) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:28.512-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:18:28.513-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:28.513-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:28.520-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:28.530-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:28.530-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:18:28.540-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:28.540-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:18:28.557-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:18:58.888-0300] {processor.py:161} INFO - Started process (PID=3111) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:58.889-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:18:58.889-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:58.889-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:58.897-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:18:58.907-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:58.907-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:18:58.917-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:18:58.917-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:18:58.932-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:19:29.275-0300] {processor.py:161} INFO - Started process (PID=3112) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:29.279-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:19:29.280-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:29.279-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:29.287-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:29.297-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:29.297-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:19:29.308-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:29.308-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:19:29.324-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.051 seconds
+[2024-01-09T10:19:59.646-0300] {processor.py:161} INFO - Started process (PID=3113) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:59.649-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:19:59.650-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:59.650-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:59.657-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:19:59.667-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:59.667-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:19:59.677-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:19:59.677-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:19:59.695-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:20:29.859-0300] {processor.py:161} INFO - Started process (PID=3114) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:20:29.879-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:20:29.879-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:20:29.879-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:20:29.888-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:20:29.899-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:20:29.899-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:20:29.910-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:20:29.910-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:20:29.925-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.068 seconds
+[2024-01-09T10:21:00.219-0300] {processor.py:161} INFO - Started process (PID=3115) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:00.221-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:21:00.222-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:00.221-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:00.229-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:00.240-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:00.240-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:21:00.250-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:00.249-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:21:00.265-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:21:30.583-0300] {processor.py:161} INFO - Started process (PID=3116) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:30.588-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:21:30.590-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:30.589-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:30.596-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:21:30.607-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:30.607-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:21:30.617-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:21:30.616-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:21:30.634-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T10:22:00.953-0300] {processor.py:161} INFO - Started process (PID=3117) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:00.958-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:22:00.959-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:00.959-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:00.967-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:00.977-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:00.977-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:22:00.987-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:00.987-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:22:01.002-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:22:31.320-0300] {processor.py:161} INFO - Started process (PID=3119) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:31.321-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:22:31.321-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:31.321-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:31.329-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:22:31.339-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:31.339-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:22:31.349-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:22:31.349-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:22:31.364-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:23:01.670-0300] {processor.py:161} INFO - Started process (PID=3120) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:01.675-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:23:01.676-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:01.676-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:01.683-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:01.693-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:01.693-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:23:01.703-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:01.703-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:23:01.720-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.053 seconds
+[2024-01-09T10:23:32.029-0300] {processor.py:161} INFO - Started process (PID=3121) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:32.034-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:23:32.035-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:32.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:32.042-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:23:32.052-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:32.052-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:23:32.062-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:23:32.062-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:23:32.077-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:24:02.399-0300] {processor.py:161} INFO - Started process (PID=3122) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:02.399-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:24:02.400-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:02.400-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:02.407-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:02.417-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:02.417-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:24:02.428-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:02.428-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:24:02.444-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.047 seconds
+[2024-01-09T10:24:32.742-0300] {processor.py:161} INFO - Started process (PID=3123) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:32.745-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:24:32.746-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:32.746-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:32.753-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:24:32.763-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:32.763-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:24:32.774-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:24:32.774-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:24:32.786-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:25:03.072-0300] {processor.py:161} INFO - Started process (PID=3128) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:03.073-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:25:03.073-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:03.073-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:03.083-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:03.096-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:03.096-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:25:03.108-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:03.108-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:25:03.122-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.051 seconds
+[2024-01-09T10:25:33.409-0300] {processor.py:161} INFO - Started process (PID=3129) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:33.413-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:25:33.414-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:33.414-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:33.421-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:25:33.431-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:33.431-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:25:33.442-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:25:33.441-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:25:33.456-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:26:03.736-0300] {processor.py:161} INFO - Started process (PID=3134) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:03.740-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:26:03.740-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:03.740-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:03.748-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:03.758-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:03.758-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:26:03.768-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:03.768-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-11T10:00:00+00:00, run_after=2023-03-12T10:00:00+00:00
+[2024-01-09T10:26:03.782-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:26:33.880-0300] {processor.py:161} INFO - Started process (PID=3149) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:33.884-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:26:33.884-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:33.884-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:33.892-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:26:33.902-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:33.902-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:26:33.913-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:26:33.913-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-14T10:00:00+00:00, run_after=2023-03-15T10:00:00+00:00
+[2024-01-09T10:26:33.929-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:27:04.293-0300] {processor.py:161} INFO - Started process (PID=3175) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:04.294-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:27:04.294-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:27:04.294-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:04.302-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:04.315-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:27:04.314-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:27:04.342-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:27:34.411-0300] {processor.py:161} INFO - Started process (PID=3179) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:34.415-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:27:34.415-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:27:34.415-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:34.422-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:27:34.433-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:27:34.433-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:27:34.444-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:27:34.444-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-03-23T10:00:00+00:00, run_after=2023-03-24T10:00:00+00:00
+[2024-01-09T10:27:34.459-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:28:04.522-0300] {processor.py:161} INFO - Started process (PID=3198) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:04.522-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:28:04.523-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:04.523-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:04.531-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:04.544-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:04.544-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:28:04.555-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:04.555-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-04-01T10:00:00+00:00, run_after=2023-04-02T10:00:00+00:00
+[2024-01-09T10:28:04.572-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T10:28:34.648-0300] {processor.py:161} INFO - Started process (PID=3217) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:34.652-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:28:34.653-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:34.653-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:34.660-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:28:34.669-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:34.669-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:28:34.680-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:28:34.680-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-04-10T10:00:00+00:00, run_after=2023-04-11T10:00:00+00:00
+[2024-01-09T10:28:34.699-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T10:29:04.931-0300] {processor.py:161} INFO - Started process (PID=3236) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:04.931-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:29:04.932-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:29:04.932-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:04.939-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:04.950-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:29:04.949-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:29:04.975-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:29:35.815-0300] {processor.py:161} INFO - Started process (PID=3260) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:35.816-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:29:35.817-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:29:35.816-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:35.824-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:29:35.835-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:29:35.834-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:29:35.859-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.046 seconds
+[2024-01-09T10:30:06.008-0300] {processor.py:161} INFO - Started process (PID=3279) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:06.008-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:30:06.009-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:30:06.009-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:06.015-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:06.026-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:30:06.026-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:30:06.050-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.044 seconds
+[2024-01-09T10:30:36.478-0300] {processor.py:161} INFO - Started process (PID=3298) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:36.482-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:30:36.483-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:30:36.482-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:36.490-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:30:36.500-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:30:36.499-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:30:36.510-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:30:36.509-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-05-17T10:00:00+00:00, run_after=2023-05-18T10:00:00+00:00
+[2024-01-09T10:30:36.526-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:31:06.798-0300] {processor.py:161} INFO - Started process (PID=3317) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:06.799-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:31:06.799-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:31:06.799-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:06.806-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:06.816-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:31:06.816-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:31:06.841-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.045 seconds
+[2024-01-09T10:31:37.053-0300] {processor.py:161} INFO - Started process (PID=3336) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:37.058-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:31:37.059-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:31:37.059-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:37.066-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:31:37.076-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:31:37.076-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:31:37.102-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:32:07.194-0300] {processor.py:161} INFO - Started process (PID=3355) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:07.195-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:32:07.195-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:32:07.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:07.203-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:07.213-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:32:07.212-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:32:07.223-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:32:07.223-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-06-13T10:00:00+00:00, run_after=2023-06-14T10:00:00+00:00
+[2024-01-09T10:32:07.240-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:32:37.616-0300] {processor.py:161} INFO - Started process (PID=3374) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:37.620-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:32:37.620-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:32:37.620-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:37.628-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:32:37.637-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:32:37.637-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:32:37.664-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:33:08.871-0300] {processor.py:161} INFO - Started process (PID=3395) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:08.872-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:33:08.872-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:33:08.872-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:08.878-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:08.889-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:33:08.889-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:33:08.914-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.045 seconds
+[2024-01-09T10:33:39.412-0300] {processor.py:161} INFO - Started process (PID=3414) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:39.414-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:33:39.414-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:33:39.414-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:39.422-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:33:39.432-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:33:39.432-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:33:39.443-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:33:39.442-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-07-11T10:00:00+00:00, run_after=2023-07-12T10:00:00+00:00
+[2024-01-09T10:33:39.458-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.047 seconds
+[2024-01-09T10:34:09.826-0300] {processor.py:161} INFO - Started process (PID=3433) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:09.830-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:34:09.831-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:34:09.831-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:09.838-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:09.848-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:34:09.848-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:34:09.874-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:34:40.584-0300] {processor.py:161} INFO - Started process (PID=3729) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:40.588-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:34:40.588-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:34:40.588-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:40.595-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:34:40.606-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:34:40.606-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:34:40.631-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:35:11.698-0300] {processor.py:161} INFO - Started process (PID=3748) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:11.699-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:35:11.699-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:35:11.699-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:11.707-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:11.717-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:35:11.717-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:35:11.740-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.044 seconds
+[2024-01-09T10:35:42.793-0300] {processor.py:161} INFO - Started process (PID=3770) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:42.794-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:35:42.794-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:35:42.794-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:42.801-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:35:42.811-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:35:42.811-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:35:42.833-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.042 seconds
+[2024-01-09T10:36:13.006-0300] {processor.py:161} INFO - Started process (PID=3789) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:13.007-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:36:13.007-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:36:13.007-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:13.013-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:13.024-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:36:13.024-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:36:13.049-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.044 seconds
+[2024-01-09T10:36:43.621-0300] {processor.py:161} INFO - Started process (PID=3808) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:43.625-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:36:43.625-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:36:43.625-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:43.632-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:36:43.643-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:36:43.643-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:36:43.653-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:36:43.653-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-09-04T10:00:00+00:00, run_after=2023-09-05T10:00:00+00:00
+[2024-01-09T10:36:43.670-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.051 seconds
+[2024-01-09T10:37:13.874-0300] {processor.py:161} INFO - Started process (PID=3827) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:13.874-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:37:13.875-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:37:13.875-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:13.882-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:13.892-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:37:13.892-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:37:13.916-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.044 seconds
+[2024-01-09T10:37:44.895-0300] {processor.py:161} INFO - Started process (PID=3846) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:44.899-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:37:44.899-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:37:44.899-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:44.907-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:37:44.918-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:37:44.918-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:37:44.929-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:37:44.929-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-09-22T10:00:00+00:00, run_after=2023-09-23T10:00:00+00:00
+[2024-01-09T10:37:44.946-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.053 seconds
+[2024-01-09T10:38:15.958-0300] {processor.py:161} INFO - Started process (PID=3869) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:15.958-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:38:15.959-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:38:15.958-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:15.966-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:15.977-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:38:15.977-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:38:16.004-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:38:47.403-0300] {processor.py:161} INFO - Started process (PID=3890) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:47.405-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:38:47.405-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:38:47.405-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:47.413-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:38:47.425-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:38:47.425-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:38:47.449-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:39:17.693-0300] {processor.py:161} INFO - Started process (PID=3912) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:17.693-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:39:17.694-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:39:17.694-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:17.701-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:17.712-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:39:17.712-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:39:17.740-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:39:48.718-0300] {processor.py:161} INFO - Started process (PID=3937) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:48.720-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:39:48.721-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:39:48.721-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:48.729-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:39:48.740-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:39:48.740-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:39:48.751-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:39:48.751-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-10-29T10:00:00+00:00, run_after=2023-10-30T10:00:00+00:00
+[2024-01-09T10:39:48.765-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.049 seconds
+[2024-01-09T10:40:19.497-0300] {processor.py:161} INFO - Started process (PID=3961) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:19.498-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:40:19.499-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:40:19.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:19.507-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:19.518-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:40:19.517-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:40:19.528-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:40:19.528-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-11-07T10:00:00+00:00, run_after=2023-11-08T10:00:00+00:00
+[2024-01-09T10:40:19.543-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.048 seconds
+[2024-01-09T10:40:50.012-0300] {processor.py:161} INFO - Started process (PID=3982) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:50.013-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:40:50.013-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:40:50.013-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:50.020-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:40:50.033-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:40:50.033-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:40:50.060-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T10:41:20.414-0300] {processor.py:161} INFO - Started process (PID=4000) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:20.418-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:41:20.418-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:20.418-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:20.425-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:20.435-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:20.435-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:41:20.446-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:20.446-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-11-24T10:00:00+00:00, run_after=2023-11-25T10:00:00+00:00
+[2024-01-09T10:41:20.463-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.051 seconds
+[2024-01-09T10:41:50.616-0300] {processor.py:161} INFO - Started process (PID=4022) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:50.616-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:41:50.616-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:50.616-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:50.624-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:41:50.634-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:50.634-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:41:50.645-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:41:50.645-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-12-03T10:00:00+00:00, run_after=2023-12-04T10:00:00+00:00
+[2024-01-09T10:41:50.661-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.047 seconds
+[2024-01-09T10:46:45.604-0300] {processor.py:161} INFO - Started process (PID=4375) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:46:45.605-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T10:46:45.605-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:46:45.605-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:46:45.612-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T10:46:45.623-0300] {logging_mixin.py:188} INFO - [2024-01-09T10:46:45.622-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T10:46:45.666-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.063 seconds
+[2024-01-09T11:00:01.138-0300] {processor.py:161} INFO - Started process (PID=744) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:00:01.139-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:00:01.139-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:00:01.139-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:00:01.146-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:00:01.158-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:00:01.158-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:00:01.188-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.052 seconds
+[2024-01-09T11:11:36.807-0300] {processor.py:161} INFO - Started process (PID=787) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:11:36.807-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:11:36.808-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:11:36.808-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:11:36.811-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:11:36.822-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:11:36.822-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:11:36.844-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.039 seconds
+[2024-01-09T11:15:51.386-0300] {processor.py:161} INFO - Started process (PID=792) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:15:51.387-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:15:51.387-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:15:51.387-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:15:51.391-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:15:51.402-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:15:51.402-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:15:51.425-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.040 seconds
+[2024-01-09T11:16:21.625-0300] {processor.py:161} INFO - Started process (PID=793) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:16:21.643-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:16:21.644-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:16:21.644-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:16:21.648-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:16:21.659-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:16:21.659-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:16:21.669-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:16:21.669-0300] {dag.py:3820} INFO - Setting next_dagrun for pokemon_extraction to 2023-12-12T10:00:00+00:00, run_after=2023-12-13T10:00:00+00:00
+[2024-01-09T11:16:21.684-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.061 seconds
+[2024-01-09T11:18:30.811-0300] {processor.py:161} INFO - Started process (PID=800) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:18:30.812-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:18:30.813-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:18:30.812-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:18:30.816-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:18:30.826-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:18:30.826-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:18:30.848-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.038 seconds
+[2024-01-09T11:22:18.360-0300] {processor.py:161} INFO - Started process (PID=805) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:22:18.361-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T11:22:18.361-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:22:18.361-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:22:18.365-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T11:22:18.375-0300] {logging_mixin.py:188} INFO - [2024-01-09T11:22:18.375-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T11:22:18.397-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.038 seconds
+[2024-01-09T14:29:33.966-0300] {processor.py:161} INFO - Started process (PID=670) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:29:33.967-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T14:29:33.967-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:29:33.967-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:29:33.978-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:29:33.995-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:29:33.995-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T14:29:34.028-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.064 seconds
+[2024-01-09T14:33:35.748-0300] {processor.py:161} INFO - Started process (PID=708) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:33:35.749-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T14:33:35.750-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:33:35.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:33:35.755-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:33:35.768-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:33:35.768-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T14:33:35.796-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.050 seconds
+[2024-01-09T14:37:26.288-0300] {processor.py:161} INFO - Started process (PID=759) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:37:26.289-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T14:37:26.290-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:37:26.290-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:37:26.294-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:37:26.306-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:37:26.305-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T14:37:26.329-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.042 seconds
+[2024-01-09T14:41:13.238-0300] {processor.py:161} INFO - Started process (PID=783) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:41:13.239-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T14:41:13.240-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:41:13.240-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:41:13.244-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:41:13.257-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:41:13.257-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T14:41:13.279-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.043 seconds
+[2024-01-09T14:44:56.801-0300] {processor.py:161} INFO - Started process (PID=813) to work on /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:44:56.802-0300] {processor.py:830} INFO - Processing file /home/brendaschap/airflow/dags/pokemon_extraction.py for tasks to queue
+[2024-01-09T14:44:56.803-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:44:56.803-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:44:56.807-0300] {processor.py:840} INFO - DAG(s) 'pokemon_extraction' retrieved from /home/brendaschap/airflow/dags/pokemon_extraction.py
+[2024-01-09T14:44:56.819-0300] {logging_mixin.py:188} INFO - [2024-01-09T14:44:56.819-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-09T14:44:56.843-0300] {processor.py:183} INFO - Processing /home/brendaschap/airflow/dags/pokemon_extraction.py took 0.043 seconds

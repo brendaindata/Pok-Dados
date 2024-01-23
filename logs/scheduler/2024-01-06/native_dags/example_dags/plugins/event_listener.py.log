@@ -1,0 +1,25 @@
+[2024-01-06T15:45:00.227-0300] {processor.py:161} INFO - Started process (PID=753) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:00.227-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-06T15:45:00.228-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:00.227-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:00.229-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:00.234-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.009 seconds
+[2024-01-06T15:45:47.863-0300] {processor.py:161} INFO - Started process (PID=885) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:47.867-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-06T15:45:47.867-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:47.867-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:47.868-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:45:47.873-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.012 seconds
+[2024-01-06T15:46:38.157-0300] {processor.py:161} INFO - Started process (PID=942) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:46:38.158-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-06T15:46:38.158-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:38.158-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:46:38.159-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:46:38.164-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.009 seconds
+[2024-01-06T15:47:29.681-0300] {processor.py:161} INFO - Started process (PID=1002) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:47:29.685-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-06T15:47:29.686-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:29.685-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:47:29.687-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:47:29.692-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.013 seconds
+[2024-01-06T15:48:23.575-0300] {processor.py:161} INFO - Started process (PID=1061) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:48:23.578-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-06T15:48:23.579-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:23.579-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:48:23.580-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-06T15:48:23.585-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.012 seconds

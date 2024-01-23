@@ -1,0 +1,35 @@
+[2024-01-06T15:44:43.664-0300] {processor.py:161} INFO - Started process (PID=737) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:44:43.664-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-01-06T15:44:43.665-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:43.665-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:44:43.733-0300] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:44:43.856-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:43.856-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:43.861-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:43.861-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-01-06T15:44:43.877-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.215 seconds
+[2024-01-06T15:45:30.283-0300] {processor.py:161} INFO - Started process (PID=866) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:45:30.287-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-01-06T15:45:30.287-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:30.287-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:45:30.361-0300] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:45:30.368-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:30.368-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:30.374-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:30.374-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-01-06T15:45:30.391-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.109 seconds
+[2024-01-06T15:46:17.398-0300] {processor.py:161} INFO - Started process (PID=916) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:46:17.402-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-01-06T15:46:17.402-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:17.402-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:46:17.470-0300] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:46:17.482-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:17.482-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:17.490-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:17.490-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-01-06T15:46:17.509-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.113 seconds
+[2024-01-06T15:47:07.939-0300] {processor.py:161} INFO - Started process (PID=972) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:47:07.943-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-01-06T15:47:07.943-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:07.943-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:47:08.013-0300] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:47:08.023-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:08.023-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:08.030-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:08.030-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-01-06T15:47:08.053-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.116 seconds
+[2024-01-06T15:48:00.625-0300] {processor.py:161} INFO - Started process (PID=1039) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:48:00.629-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-01-06T15:48:00.630-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:00.630-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:48:00.699-0300] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-01-06T15:48:00.707-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:00.706-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:00.713-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:00.713-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-01-06T15:48:00.728-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.105 seconds

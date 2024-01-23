@@ -1,0 +1,35 @@
+[2024-01-06T15:44:30.021-0300] {processor.py:161} INFO - Started process (PID=723) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:44:30.022-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-06T15:44:30.022-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.022-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:44:30.028-0300] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:44:30.162-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.162-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:30.172-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:30.172-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:44:30.188-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.168 seconds
+[2024-01-06T15:45:16.774-0300] {processor.py:161} INFO - Started process (PID=771) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:45:16.778-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-06T15:45:16.778-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:16.778-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:45:16.782-0300] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:45:16.791-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:16.791-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:16.801-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:16.800-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:45:16.817-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2024-01-06T15:46:03.380-0300] {processor.py:161} INFO - Started process (PID=900) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:03.380-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-06T15:46:03.381-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:03.381-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:03.385-0300] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:03.394-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:03.394-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:03.404-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:03.404-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:46:03.420-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2024-01-06T15:46:50.702-0300] {processor.py:161} INFO - Started process (PID=955) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:50.706-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-06T15:46:50.706-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:50.706-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:50.710-0300] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:46:50.718-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:50.718-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:50.728-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:50.728-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:46:50.745-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2024-01-06T15:47:41.209-0300] {processor.py:161} INFO - Started process (PID=1018) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:47:41.211-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-06T15:47:41.211-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:41.211-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:47:41.215-0300] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-06T15:47:41.224-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:41.224-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:41.234-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:41.234-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:47:41.249-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds

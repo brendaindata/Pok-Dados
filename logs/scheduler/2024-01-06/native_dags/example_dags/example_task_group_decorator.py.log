@@ -1,0 +1,35 @@
+[2024-01-06T15:44:57.355-0300] {processor.py:161} INFO - Started process (PID=750) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:44:57.355-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-01-06T15:44:57.356-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:57.356-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:44:57.366-0300] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:44:57.420-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:57.420-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:57.431-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:57.431-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group_decorator to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:44:57.465-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.112 seconds
+[2024-01-06T15:45:44.749-0300] {processor.py:161} INFO - Started process (PID=882) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:45:44.749-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-01-06T15:45:44.750-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:44.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:45:44.758-0300] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:45:44.768-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:44.768-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:44.778-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:44.778-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group_decorator to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:45:44.795-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.048 seconds
+[2024-01-06T15:46:35.288-0300] {processor.py:161} INFO - Started process (PID=939) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:46:35.289-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-01-06T15:46:35.290-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:35.290-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:46:35.299-0300] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:46:35.307-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:35.307-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:35.317-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:35.316-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group_decorator to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:46:35.331-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.044 seconds
+[2024-01-06T15:47:27.070-0300] {processor.py:161} INFO - Started process (PID=999) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:47:27.072-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-01-06T15:47:27.072-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:27.072-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:47:27.081-0300] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:47:27.091-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:27.091-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:27.101-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:27.101-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group_decorator to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:47:27.115-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.046 seconds
+[2024-01-06T15:48:20.075-0300] {processor.py:161} INFO - Started process (PID=1058) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:48:20.079-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-01-06T15:48:20.079-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:20.079-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:48:20.087-0300] {processor.py:840} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-01-06T15:48:20.097-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:20.097-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:20.107-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:20.107-0300] {dag.py:3820} INFO - Setting next_dagrun for example_task_group_decorator to 2024-01-05T00:00:00+00:00, run_after=2024-01-06T00:00:00+00:00
+[2024-01-06T15:48:20.124-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.050 seconds

@@ -1,0 +1,35 @@
+[2024-01-06T15:44:37.618-0300] {processor.py:161} INFO - Started process (PID=730) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:44:37.619-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-01-06T15:44:37.619-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:37.619-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:44:37.628-0300] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:44:37.763-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:37.763-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:37.768-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:37.768-0300] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-01-06T15:44:37.789-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.172 seconds
+[2024-01-06T15:45:24.169-0300] {processor.py:161} INFO - Started process (PID=778) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:45:24.169-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-01-06T15:45:24.170-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:24.170-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:45:24.178-0300] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:45:24.200-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:24.200-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:24.206-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:24.205-0300] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-01-06T15:45:24.220-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.054 seconds
+[2024-01-06T15:46:12.423-0300] {processor.py:161} INFO - Started process (PID=909) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:46:12.426-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-01-06T15:46:12.427-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:12.427-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:46:12.434-0300] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:46:12.456-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:12.456-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:12.462-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:12.462-0300] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-01-06T15:46:12.478-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds
+[2024-01-06T15:47:01.100-0300] {processor.py:161} INFO - Started process (PID=965) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:01.101-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-01-06T15:47:01.102-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:01.101-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:01.110-0300] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:01.132-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:01.131-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:01.137-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:01.137-0300] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-01-06T15:47:01.153-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.055 seconds
+[2024-01-06T15:47:47.326-0300] {processor.py:161} INFO - Started process (PID=1026) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:47.329-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-01-06T15:47:47.330-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:47.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:47.337-0300] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-01-06T15:47:47.359-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:47.359-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:47.365-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:47.365-0300] {dag.py:3820} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-01-06T15:47:47.382-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.058 seconds

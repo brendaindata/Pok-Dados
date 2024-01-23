@@ -1,0 +1,24 @@
+[2024-01-09T10:40:07.042-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-11-03T10:00:00+00:00 [queued]>
+[2024-01-09T10:40:07.046-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-11-03T10:00:00+00:00 [queued]>
+[2024-01-09T10:40:07.046-0300] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-09T10:40:07.057-0300] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): extract_pokemons> on 2023-11-03 10:00:00+00:00
+[2024-01-09T10:40:07.059-0300] {standard_task_runner.py:60} INFO - Started process 3951 to run task
+[2024-01-09T10:40:07.061-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pokemon_extraction', 'extract_pokemons', 'scheduled__2023-11-03T10:00:00+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/pokemon_extraction.py', '--cfg-path', '/tmp/tmpgh2j5832']
+[2024-01-09T10:40:07.061-0300] {standard_task_runner.py:88} INFO - Job 242: Subtask extract_pokemons
+[2024-01-09T10:40:07.084-0300] {task_command.py:423} INFO - Running <TaskInstance: pokemon_extraction.extract_pokemons scheduled__2023-11-03T10:00:00+00:00 [running]> on host LAPTOP-SB6KEOGH.
+[2024-01-09T10:40:07.132-0300] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Brenda Schapievski' AIRFLOW_CTX_DAG_ID='pokemon_extraction' AIRFLOW_CTX_TASK_ID='extract_pokemons' AIRFLOW_CTX_EXECUTION_DATE='2023-11-03T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-03T10:00:00+00:00'
+[2024-01-09T10:40:07.439-0300] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/brendaschap/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/brendaschap/airflow/dags/pokemon.py", line 22, in extract_pokemon
+    pokemon_list.append(infos)
+NameError: name 'infos' is not defined
+[2024-01-09T10:40:07.441-0300] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pokemon_extraction, task_id=extract_pokemons, execution_date=20231103T100000, start_date=20240109T134007, end_date=20240109T134007
+[2024-01-09T10:40:07.457-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 242 for task extract_pokemons (name 'infos' is not defined; 3951)
+[2024-01-09T10:40:07.474-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-09T10:40:07.484-0300] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

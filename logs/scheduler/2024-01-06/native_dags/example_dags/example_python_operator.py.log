@@ -1,0 +1,35 @@
+[2024-01-06T15:44:54.986-0300] {processor.py:161} INFO - Started process (PID=748) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:44:54.986-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-06T15:44:54.987-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:54.987-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:44:55.056-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:44:55.106-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:55.106-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:44:55.112-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:44:55.112-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-06T15:44:55.133-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2024-01-06T15:45:43.852-0300] {processor.py:161} INFO - Started process (PID=880) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:45:43.856-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-06T15:45:43.856-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:43.856-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:45:43.928-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:45:43.936-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:43.936-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:45:43.942-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:45:43.942-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-06T15:45:43.959-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.108 seconds
+[2024-01-06T15:46:32.915-0300] {processor.py:161} INFO - Started process (PID=937) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:46:32.918-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-06T15:46:32.919-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:32.918-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:46:32.995-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:46:33.005-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:33.004-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:46:33.012-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:46:33.012-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-06T15:46:33.031-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.118 seconds
+[2024-01-06T15:47:25.681-0300] {processor.py:161} INFO - Started process (PID=997) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:47:25.685-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-06T15:47:25.685-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:25.685-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:47:25.756-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:47:25.765-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:25.765-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:47:25.771-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:47:25.771-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-06T15:47:25.809-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.130 seconds
+[2024-01-06T15:48:17.716-0300] {processor.py:161} INFO - Started process (PID=1056) to work on /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:48:17.718-0300] {processor.py:830} INFO - Processing file /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-01-06T15:48:17.718-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:17.718-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:48:17.787-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-01-06T15:48:17.797-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:17.796-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-06T15:48:17.802-0300] {logging_mixin.py:188} INFO - [2024-01-06T15:48:17.802-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-01-06T15:48:17.817-0300] {processor.py:183} INFO - Processing /home/brendaschap/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.102 seconds
